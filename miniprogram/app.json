@@ -2,9 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/index/stockList",
     "pages/stock/stock.info",
-    "pages/stock/staock.list"
+    "pages/stock/stock.list"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -13,5 +12,9 @@
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  }
 }
